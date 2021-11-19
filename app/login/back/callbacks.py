@@ -125,9 +125,9 @@ def register_callbacks(dashapp):
     def login_status(n_clicks):
         ''' callback to display login/logout link in the header '''
         if current_user.is_authenticated:  # If the URL is /logout, then the user is about to be logged out anyways
-            return [html.H1('connected : ' + str(current_user.is_authenticated))]
+            return [" "]
         else:
-            return [html.H1('connected : ' + str(current_user.is_authenticated))]
+            return [""]
 
 
 """

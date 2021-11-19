@@ -66,14 +66,9 @@ layout = html.Div(style={'backgroundColor': colors['background1']}, children=[
 
     html.Hr(),
 
-    dbc.Button("Déjà Déco",id="logout-button", color="warning", className="mr-3", style={'fontWeight': 'bold'}),
-
     dcc.Location(id='url-login', refresh=False),
     dcc.Location(id='redirect-login', refresh=True),
     html.Div(id='user-status-div'),
-    html.Br(),
-    html.Br(),
-    html.Div(id='page-content'),
 
     # Données de la session
     log_button_msg,
