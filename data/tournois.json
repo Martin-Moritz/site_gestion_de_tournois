@@ -1,0 +1,10 @@
+[
+{"nom": "Smash Tournament", "host": "Martin", "type": "video", "jeu": "Smash Bros Ultimate", "date": "2021-11-20", "max_participants": "10", "nb_participants": "0"},
+{"nom": "Chess Tournament", "host": "Victor", "type": "board", "jeu": "Chess", "date": "2021-12-24", "max_participants": "20", "nb_participants": "2"},
+{"nom": "Tournoi 1", "host": "Martin", "type": "other", "jeu": "Smash Bros Ultimate", "date": "2021-11-20", "max_participants": "10", "nb_participants": "0"},
+{"nom": "Tournoi 2", "host": "Martin", "type": "video", "jeu": "Smash Bros Ultimate", "date": "2021-11-20", "max_participants": "10", "nb_participants": "0"},
+{"nom": "Tournoi 3", "host": "Martin", "type": "other", "jeu": "Smash Bros Ultimate", "date": "2021-11-20", "max_participants": "10", "nb_participants": "0"},
+{"nom": "Tournoi 4", "host": "Martin", "type": "board", "jeu": "Smash Bros Ultimate", "date": "2021-11-20", "max_participants": "10", "nb_participants": "0"},
+{"nom": "Tournoi 5", "host": "Martin", "type": "board", "jeu": "Smash Bros Ultimate", "date": "2021-11-20", "max_participants": "10", "nb_participants": "0"},
+{"nom": "Tournoi 6", "host": "Martin", "type": "video", "jeu": "Smash Bros Ultimate", "date": "2021-11-20", "max_participants": "10", "nb_participants": "0"}
+]
