@@ -49,3 +49,57 @@ def register_callbacks(dashapp):
                 href = "http://127.0.0.1:5000/login"
 
         return [href]
+
+
+    @dashapp.callback([],
+    [Input('registertournament-button', 'n_clicks')],
+    [State('selection-inscription-tournoi', 'value')])
+    def inscription_tournoi(n_clicks, nom_tournoi):
+
+        username = str(current_user.get_id())
+
+        df_tournois = get_tournois()
+        df_participants = get_participants()
+
+        new_participant = {"tournoi":str(nom_tournoi), "participant":str(username)}
+        # Ajout des données dans la bdd redis
+        redis_client.hmset('participant ' + str(len(df_participants)+1), new_participant)
+
+        redis_client.save()
+
+        df_participants = get_participants()
+"""
+    @dashapp.callback([],
+    [Input('registertournament-button', 'n_clicks')],
+    [State('selection-inscription-tournoi', 'value')])
+    def inscription_tournoi(n_clicks, nom_tournoi):
+
+        if n_clicks == None:
+            pass
+
+        else:
+            if current_user.is_authenticated == False:
+                pass
+            else:
+                username = str(current_user.get_id())
+
+            df_tournois = get_tournois()
+            df_participants = get_participants()
+
+            df_participation = df_participants[df_participants.participant==username]
+
+            for participation in df_participation.tournoi:
+                already_registered = False
+                if participation == nom_tournoi:
+                    already_registered = True
+
+            if already_registered == False:
+
+                new_participant = {"tournoi":str(nom_tournoi), "participant":str(username)}
+                # Ajout des données dans la bdd redis
+                redis_client.hmset('participant ' + str(len(df_participants)+1), new_participant)
+
+                redis_client.save()
+
+                df_participants = get_participants()
+"""

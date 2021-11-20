@@ -1,10 +1,10 @@
 [
-{"nom": "Smash Tournament", "host": "Martin", "type": "video", "jeu": "Smash Bros Ultimate", "date": "2021-11-20", "max_participants": "10", "nb_participants": "0"},
-{"nom": "Chess Tournament", "host": "Victor", "type": "board", "jeu": "Chess", "date": "2021-12-24", "max_participants": "20", "nb_participants": "2"},
-{"nom": "Tournoi 1", "host": "Martin", "type": "other", "jeu": "Smash Bros Ultimate", "date": "2021-11-20", "max_participants": "10", "nb_participants": "0"},
-{"nom": "Tournoi 2", "host": "Martin", "type": "video", "jeu": "Smash Bros Ultimate", "date": "2021-11-20", "max_participants": "10", "nb_participants": "0"},
-{"nom": "Tournoi 3", "host": "Martin", "type": "other", "jeu": "Smash Bros Ultimate", "date": "2021-11-20", "max_participants": "10", "nb_participants": "0"},
-{"nom": "Tournoi 4", "host": "Martin", "type": "board", "jeu": "Smash Bros Ultimate", "date": "2021-11-20", "max_participants": "10", "nb_participants": "0"},
-{"nom": "Tournoi 5", "host": "Martin", "type": "board", "jeu": "Smash Bros Ultimate", "date": "2021-11-20", "max_participants": "10", "nb_participants": "0"},
-{"nom": "Tournoi 6", "host": "Martin", "type": "video", "jeu": "Smash Bros Ultimate", "date": "2021-11-20", "max_participants": "10", "nb_participants": "0"}
+{"nom": "Smash Tournament", "host": "Martin", "type": "video", "jeu": "Smash Bros Ultimate", "date": "2021-11-20", "max_participants": "10"},
+{"nom": "Chess Tournament", "host": "Victor", "type": "board", "jeu": "Chess", "date": "2021-12-24", "max_participants": "20"},
+{"nom": "Laser Game", "host": "Martin", "type": "other", "jeu": "Laser Game", "date": "2021-12-24", "max_participants": "15"},
+{"nom": "Monopoly Tour", "host": "Martin", "type": "board", "jeu": "Monopoly", "date": "2021-11-11", "max_participants": "5"},
+{"nom": "Special Event", "host": "Vincent", "type": "other", "jeu": "Evénènement", "date": "2022-02-02", "max_participants": "100"},
+{"nom": "Mario Universe", "host": "Martin", "type": "video", "jeu": "Mario Kart | Mario Party", "date": "2022-01-01", "max_participants": "12"},
+{"nom": "Smash Melee", "host": "Vincent", "type": "video", "jeu": "Smash Bros Melee", "date": "2021-10-03", "max_participants": "30"},
+{"nom": "Hold-Em Stars", "host": "Martin", "type": "board", "jeu": "Poker", "date": "2022-01-01", "max_participants": "20"}
 ]

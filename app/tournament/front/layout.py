@@ -71,7 +71,7 @@ layout = html.Div(style={'backgroundColor': colors['background1'], 'height':'100
                 placeholder='Sélectionnez un tournoi',
                 options=liste_tournois,
                 multi=False,
-                value=[],
+                value=[{"label":"Smash Tournament", "value":"Smash Tournament"}],
                 style={'display': 'inline-block','width':'100%', 'border':'solid', 'border-radius': '2px', 'padding': '4px'}
                 ),
             ]),

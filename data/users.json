@@ -1,3 +1,4 @@
 [
-{"nom": "Martin", "mdp": "123456"}
+{"nom": "Martin", "mdp": "123456"},
+{"nom": "Vincent", "mdp": "password"}
 ]
