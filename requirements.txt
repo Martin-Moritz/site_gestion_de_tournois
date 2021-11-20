@@ -9,3 +9,7 @@ plotly.express==0.4.1
 redis==3.5.3
 scrapy==1.8.0
 Werkzeug==0.16.0
+numpy
+pandas
+os
+json
