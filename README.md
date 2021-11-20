@@ -1,4 +1,4 @@
-# Application Fullstack Data - Site de gestions de tournois <a href="https://www.esiee.fr/"> <img align="right" width="8%" height="8%" src="images/Logo_ESIEE_Paris.png"> </a>
+# Application Fullstack Data - Site de tournois <a href="https://www.esiee.fr/"> <img align="right" width="8%" height="8%" src="images/Logo_ESIEE_Paris.png"> </a>
 
 Projet codé en Python dont l'objectif est de créer une Application Fullstack.
 
@@ -18,9 +18,9 @@ Projet codé en Python dont l'objectif est de créer une Application Fullstack.
 
 ### Technologies Utilisées <a name="techno" />
 
-Cette application web est codée en Python, basée sur le package <a href="https://flask.palletsprojects.com/en/1.1.x/">**Flask**</a> et tourne sur le **port 5000**.<br>
+Cette application web est codée en Python, basée sur le package <a href="https://flask.palletsprojects.com/en/1.1.x/">**Flask**</a> et **Dash** et tourne sur le **port 5000**.<br>
 Ces données sont ensuite stockées dans une base de données <a href="https://en.wikipedia.org/wiki/Redis">**Redis**</a> tournant sur le **port 6379**.<br>
-Enfin, ces données sont affichées à travers un Dashboard interactif réalisé avec le framework <a href="http://dash.plotly.com/">**Dash**</a>.<br>
+
 Le site est un ensemble de sous-applications *Dash* reliées entre elle en une application globale *Flask*. Pour chaque sous-application, le backend et le frontend ont été séparés.<br>
 
 L'ensemble de l'application est déployée grâce à la technologie <a href="https://www.docker.com/">**Docker**</a>.
@@ -105,7 +105,7 @@ Successfully tagged site_gestion_de_tournois_web:latest
 ```
 Gracefully stopping... (press Ctrl+C again to force)
 Stopping site_gestion_de_tournois_web_1   ... done
-Stopping redis_tennis          ... done
+Stopping redis_tournoi          ... done
 ```
 ## 3 - Developer Guide <a name="developer-guide" />
 
@@ -156,7 +156,7 @@ En haut de la page se trouvent les boutons permettant de naviguer entre les diff
 
 ![Application1](images/Application1.PNG)
 
-La page d'accueil étale un certain nombre de tournois, créés par des utilisateurs du site, et organisés avec une date, un jeu, thème, etc.
+La page d'accueil détails un certain nombre de tournois, créés par des utilisateurs du site, et organisés avec une date, un jeu, thème, etc.
 
 ![Application2](images/Application2.PNG)
 
@@ -165,7 +165,7 @@ Si vous ne possédez pas de compte, vous pouvez vous rediriger vers une page d'i
 
 *Vous pouvez visualiser si vous êtes connecté ou non en apercevant un bouton 'Connexion' ou 'Déconnexion' dans la barre de navigation.*
 
-**Vous pourrez utiliser les identifiants *Martin* et *123456* pour visualiser une page de profil complète**
+**Vous pourrez utiliser les identifiants '*Martin*' et '*123456*' pour visualiser une page de profil complète**
 
 ![Application3](images/Application3.PNG)
 
