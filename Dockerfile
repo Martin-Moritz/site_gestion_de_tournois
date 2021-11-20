@@ -4,7 +4,7 @@ WORKDIR /code
 
 
 RUN apt-get update -y && \
-    apt-get install -y python-scipy\
+    apt-get install -y python3-scipy\
     python-numpy python-pandas &&\
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
