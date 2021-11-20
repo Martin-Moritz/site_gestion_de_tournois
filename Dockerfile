@@ -3,14 +3,10 @@ FROM python:3.9
 WORKDIR /code
 
 
-RUN apt-get update -y && \
-    apt-get install -y python3-scipy\
-    python-numpy python-pandas &&\
-    apt-get clean && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt requirements.txt
 
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
 COPY . /code/
 
